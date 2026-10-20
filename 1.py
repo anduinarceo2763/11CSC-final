@@ -1,3 +1,7 @@
+import os
+print("Working directory:", os.getcwd())
+print("CSS file path:", os.path.abspath("./static/style.css"))
+
 from bottle import route, static_file, run, template, view
 
 @route('/')
