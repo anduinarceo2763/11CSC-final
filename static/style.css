@@ -90,6 +90,7 @@ p {
   overflow: hidden;
   width: 900px;
   height: auto; 
+  flex-direction: column;
 }
 
 .image-wrapper-2 img {
