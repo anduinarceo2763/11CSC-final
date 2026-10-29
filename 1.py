@@ -4,9 +4,9 @@ print("CSS file path:", os.path.abspath("./static/style.css"))
 
 from bottle import route, static_file, run, template, view
 
-@route('/')
-@view('index')
-def index():
+@route('/profile')
+@view('profile')
+def profile():
     return {}
 
 @route('/page2')

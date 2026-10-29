@@ -16,6 +16,13 @@ h2 {
   font-size: 30px;
 }
 
+a { 
+  font-size: 30px;
+  color: rgb(11, 0, 61);
+  padding-left: 30px;
+  padding-left: 30px;
+}
+
 p { 
   padding: 10px;
   font-size: 30px;
@@ -106,10 +113,12 @@ p {
   border: 10px solid #FCFF9C;
   background-color: rgb(11, 0, 61); 
   text-align: center;
-  /* new stuff */ 
+  /* new stuff  */ 
   width:1250px;
   height: 670px;
   box-sizing: border-box;
   overflow: auto;
   padding: 10px;
+  flex-direction: column;
 }
+
